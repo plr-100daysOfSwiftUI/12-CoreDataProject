@@ -13,12 +13,11 @@ struct ContentView: View {
 	@Environment(\.managedObjectContext) var moc
 	@State private var lastNameFilter = "A"
 	var sortDescriptors: [NSSortDescriptor] = [NSSortDescriptor(keyPath: \Singer.lastName, ascending: true)]
-	var comparison: String = "BEGINSWITH"
 	
 	var body: some View {
 		VStack {
 			
-			FilteredList(sortDescriptors:sortDescriptors, comparison: comparison, filterKey: "lastName", filterValue: lastNameFilter) { (singer:Singer) in
+			FilteredList(sortDescriptors:sortDescriptors, format: .beginsWith, filterKey: "lastName", filterValue: lastNameFilter) { (singer:Singer) in
 				Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
 			}
 			
