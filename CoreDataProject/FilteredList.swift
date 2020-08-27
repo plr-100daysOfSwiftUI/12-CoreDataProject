@@ -9,6 +9,10 @@
 import SwiftUI
 import CoreData
 
+enum PredicateFormat: String {
+	case beginsWith = "%K BEGINSWITH %@"
+}
+
 struct FilteredList<T: NSManagedObject, Content: View>: View {
 	
 	var fetchRequest: FetchRequest<T>
