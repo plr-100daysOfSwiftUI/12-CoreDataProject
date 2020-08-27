@@ -11,6 +11,7 @@ import CoreData
 
 enum PredicateFormat: String {
 	case beginsWith = "%K BEGINSWITH %@"
+	case contains = "%K CONTAINS[c] %@"
 }
 
 struct FilteredList<T: NSManagedObject, Content: View>: View {
