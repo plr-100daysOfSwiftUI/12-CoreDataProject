@@ -12,6 +12,7 @@ struct ContentView: View {
 	
 	@Environment(\.managedObjectContext) var moc
 	@State private var lastNameFilter = "A"
+	var sortDescriptors: [NSSortDescriptor] = []
 	
 	var body: some View {
 		VStack {
