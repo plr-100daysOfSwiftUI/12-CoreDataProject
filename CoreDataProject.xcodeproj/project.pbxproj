@@ -14,6 +14,7 @@
 		8B9412BA24F4CF2300C93ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9412B924F4CF2300C93ED2 /* Assets.xcassets */; };
 		8B9412BD24F4CF2300C93ED2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9412BC24F4CF2300C93ED2 /* Preview Assets.xcassets */; };
 		8B9412C024F4CF2300C93ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9412BE24F4CF2300C93ED2 /* LaunchScreen.storyboard */; };
+		8B9BBE1B24F79879008D1280 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B9BBE1A24F79878008D1280 /* README.md */; };
 		8BC496F024F63C94004BA2CF /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC496EE24F63C94004BA2CF /* Singer+CoreDataClass.swift */; };
 		8BC496F124F63C94004BA2CF /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC496EF24F63C94004BA2CF /* Singer+CoreDataProperties.swift */; };
 		8BC496F524F64461004BA2CF /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC496F424F64461004BA2CF /* FilteredList.swift */; };
@@ -29,6 +30,7 @@
 		8B9412BC24F4CF2300C93ED2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B9412BF24F4CF2300C93ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B9412C124F4CF2300C93ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9BBE1A24F79878008D1280 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8BC496EE24F63C94004BA2CF /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8BC496EF24F63C94004BA2CF /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8BC496F424F64461004BA2CF /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		8B9412A424F4CF2000C93ED2 = {
 			isa = PBXGroup;
 			children = (
+				8B9BBE1A24F79878008D1280 /* README.md */,
 				8B9412AF24F4CF2000C93ED2 /* CoreDataProject */,
 				8B9412AE24F4CF2000C93ED2 /* Products */,
 			);
@@ -147,6 +150,7 @@
 			files = (
 				8B9412C024F4CF2300C93ED2 /* LaunchScreen.storyboard in Resources */,
 				8B9412BD24F4CF2300C93ED2 /* Preview Assets.xcassets in Resources */,
+				8B9BBE1B24F79879008D1280 /* README.md in Resources */,
 				8B9412BA24F4CF2300C93ED2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
