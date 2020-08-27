@@ -12,13 +12,13 @@ import CoreData
 struct FilteredList<T: NSManagedObject, Content: View>: View {
 	
 	var fetchRequest: FetchRequest<T>
-	var singers: FetchedResults<T> { fetchRequest.wrappedValue }
+	var results: FetchedResults<T> { fetchRequest.wrappedValue }
 	
 	let content: (T) -> Content
 	
 	var body: some View {
-		List(singers, id: \.self) { singer in
-			self.content(singer)
+		List(results, id: \.self) { result in
+			self.content(result)
 		}
 	}
 	
